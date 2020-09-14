@@ -20,3 +20,8 @@ in a more generalized way, it can be imagined as:
 │   └── Left Operand
 │   └── Right Operand
 ```
+
+## Default Priority
+```
+(,) >> {,} >> [,] >> ^,&&,|| >> / >> + >> * >> -
+```
