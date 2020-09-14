@@ -5,7 +5,7 @@
 
     <groupId>org.asri</groupId>
     <artifactId>expression-parser</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <packaging>jar</packaging>
 
     <properties>
@@ -59,4 +59,17 @@
         </plugins>
         <finalName>${project.artifactId}-${project.version}</finalName>
     </build>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>gs-asrivastav</name>
+            <url>https://maven.pkg.github.com/gs-asrivastav/expression-parser</url>
+        </repository>
+        <snapshotRepository>
+            <id>github</id>
+            <name>gs-asrivastav</name>
+            <url>https://maven.pkg.github.com/gs-asrivastav/expression-parser</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
