@@ -14,3 +14,9 @@ Parsed expression node should be able to print a tree in a properly nested fashi
 │   │   │   └── CC
 │   │   └── CCC
 ```
+in a more generalized way, it can be imagined as: 
+```
+├── Operator
+│   └── Left Operand
+│   └── Right Operand
+```
